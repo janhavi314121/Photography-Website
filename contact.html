@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Photography Site</title>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <img src="images/newlogo.png" style="width: 150px; height: 150px;"/>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "blog.html" >Blog</a></li>
+                        <li><a href = "contact.html" class = "active">Contact</a></li>
+                        <!-- <li><a href = "Contest.html">Contest</a></li> -->
+                        <li><a href = "login_form.php">Login</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+
+            <div class = "container about">
+                <div class = "about-content">
+                    <div class = "about-img flex">
+                        <img src = "images/about-img.jpg" alt = "photographer img">
+                    </div>
+                    <h2>I'm JANHAVI SHEDGE</h2>
+                    <h3>Photographer</h3>
+                    <blockquote>
+                        "Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever ... It remembers little things, long after you have forgotten everything."
+                        <span>-Aaron Siskind</span>
+                    </blockquote>
+                </div>
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://www.facebook.com/groups/976096975862481/?ref=share">
+                                <i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://twitter.com/OutdoorPhotoMag?t=K2jzCv2OS0fQhyDlH1nLsA&s=09">
+                                <i class = "fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://instagram.com/photographer?igshid=YmMyMTA2M2Y=">
+                                <i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://pin.it/4Wy2CAa">
+                                <i class = "fab fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- main -->
+        <section class = "section-five">
+            <div class = "container">
+                <div class = "contact-top">
+                    <h3>CONTACT ME</h3>
+                    <p>Want to get in touch?We'd love to hear from you.Here's how you can reach us</p>
+                </div>
+
+                <div class = "contact-middle">
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-map-signs"></i>
+                        </span>
+                        <span>Address</span>
+                        <p>Main Street - 3456, Mumbai 400008</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-phone"></i>
+                        </span>
+                        <span>Contact Number</span>
+                        <p>702698118</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-paper-plane"></i>
+                        </span>
+                        <span>Email Address</span>
+                        <p>Janhavi08@gmail.com</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-globe"></i>
+                        </span>
+                        <span>Website</span>
+                        <p>www.janhavilab.com</p>
+                    </div>
+                </div>
+
+                <div class = "contact-bottom">
+                    <form class = "form" action="contact.php" method="post">
+                        
+                        <input type = "text" placeholder="Your Name"required name="name"/>
+                        <input type = "email" placeholder="Your Email"required name="email"/>
+                        <input type = "text" placeholder="Subject"required name="subject"/>
+                        <input type = "text" placeholder="Desired Date-DD/MM/YY"required name="date"/>
+                        <!-- <label for="start">Desired Date:</label>
+<input type="date" id="start" name="trip-start"
+       value="2022-07-22"
+       min="2022-01-01" max="2022-12-31"> -->
+       
+                        <input type = "text" placeholder="Desired Location" required name="location">
+                        <textarea rows = "9" placeholder="Message"required name="message"></textarea>
+                        <input type = "submit" class = "btn" name="save" value = "Send Message">
+                    </form>
+
+                    <!-- Map -->
+                    <div>
+                        <h3>CHOOSE YOUR FAVOURITE LOCATION FOR PHOTOGRAPHY:</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.64332144568!2d72.74109713631994!3d19.08252232482484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1650782653930!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container container">
+                <div>
+                    <h2>JANHAVI SHEDGE</h2>
+                    <p>I learned that some of the most important things to become a good photographer is know your camera, focus on the light exposure, practice, and learn more from other photographers.</p>
+                </div>
+                <div>
+                    <h3>Free Subscription!</h3>
+                    <p>Subscribe For Party Ideas and Offers.</p>
+
+                    <div class = "subs">
+                        <i class = "fas fa-envelope"></i>
+                        <input type = "email" id = "email" placeholder="Email Address">
+                        <button type = "submit">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+        <!-- end of footer -->
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
