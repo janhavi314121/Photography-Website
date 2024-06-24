@@ -1,3 +1,6 @@
+# Photography Website
+
+
 # Screenshots
 
 <img src="https://github.com/janhavi314121/Photography-Website/assets/155951124/545b87df-65cb-4bf4-9aa9-43a1f2d9f6c6" alt="Photography Website" width="400" />
@@ -16,10 +19,6 @@
 
 
 
-
-
-
-# Photography Website
 
 An end-to-end database-focused website for client registration. This project includes several key features:
 
